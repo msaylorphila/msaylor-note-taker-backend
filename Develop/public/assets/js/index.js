@@ -31,7 +31,7 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json',
     },
-  });
+  }) 
 
 const saveNote = (note) =>
   fetch('/api/notes', {
@@ -39,8 +39,15 @@ const saveNote = (note) =>
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(note),
-  });
+    body: JSON.stringify(note)})
+  // }).then((res) => res.json())
+  // .then((data) => {
+  //   console.log('Successful POST request:', data);
+  //   return data;
+  // })
+  // .catch((error) => {
+  //   console.error('Error in POST request:', error);
+  // }); 
 
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
