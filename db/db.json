@@ -1,11 +1,27 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "Hello world!",
+        "text": "Please start typing notes",
+        "id": 0.41518361474216325
     },
     {
-        "title": "ag",
-        "text": "adsg",
-        "id": 0.9593905898391017
+        "title": "Delete",
+        "text": "To delete notes click the trashcan icon!",
+        "id": 0.23281534293566764
+    },
+    {
+        "title": "Read",
+        "text": "To open and read a note just click the title!",
+        "id": 0.8041685354208263
+    },
+    {
+        "title": "Start new",
+        "text": "To start a new note click the '+' icon",
+        "id": 0.00737738220633255
+    },
+    {
+        "title": "Save",
+        "text": "To save a note click on the floppy disk!",
+        "id": 0.5261066307139994
     }
 ]
